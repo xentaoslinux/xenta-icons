@@ -1,0 +1,15 @@
+Source: xenta-icons
+Section: gnome
+Priority: optional
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.6
+Homepage: http://www.xentaos.org/
+#Vcs-Git: git://anonscm.debian.org/collab-maint/xenta-icons.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/xenta-icons.git
+
+Package: xenta-icons
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Xenta icon theme
+ The Xenta icons is fallback mode icon for Xenta OS.
